@@ -1,0 +1,350 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+    /*----------top bar styles----------*/
+
+.starting{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.top-bar-list ul{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    justify-content: space-between;
+    list-style: none;  
+}
+
+.top-header{
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.top-info{
+    display: grid;
+    grid-template-rows: repeat(1 ,1fr);
+    text-align: center;
+}
+.images-banner{
+    margin-bottom: 60px;
+    
+}
+ /* top bar font styles */
+
+
+.first-title{
+   color:  Dark #131313;
+   font-size: 64px; 
+   line-height: 70px;
+}
+.paragraph{
+    color:#727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+.top-button{
+    background: #FF900E;
+    border-radius: 8px;
+    width: 180px;
+    height: 55px;
+    border: 0px;
+    color: #FFFFFF;
+    margin-bottom: 70px;
+    margin-top: 40px;
+
+}
+/* main banner styles */
+.main-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 90px;
+}
+   
+.photos{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 25px;
+}
+.quick{
+    color:#727272;
+}
+.our{
+    color:#131313;
+}
+.features{
+    color: #FF900E;
+}
+.middle-header{
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+}
+ /*-----------------------
+  Love and enjoy section 
+  ----------------------*/
+.Experience{
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.love-and-enjoy{
+    border-left: 5px solid #FF900E; 
+    padding: 20px;
+    color: #131313;
+    font-weight:700px;
+    font-size:45px;
+}
+.para-title{
+    font-weight:600px;
+    font-size: 20px;
+    color: black;
+}
+.div-child{
+    padding-left: 20px;
+    padding-top:5px ;
+    padding-bottom: 10px;
+    height: 130px;
+    margin-bottom: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.09);
+    border-radius: 8px;
+}
+.experience{
+    background: #FF900E;
+    border-radius: 8px;
+    color: #FFFFFF;
+    border: 0px;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+}
+
+.tenyear{
+    font-weight: 700;
+    font-size: 65px;
+}
+/* next-part */
+section .icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.number{
+    font-weight: 600;
+    font-size:45px;
+}
+.web-number{
+    width: 200.90px;
+    height: 150.90px;
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 10px;
+    transition: all 0.5s;
+
+}
+.icons:hover .web-number{
+    transform: scale(70%);
+    background: linear-gradient(#2e1b05, #FFF4E7);
+    font-size: 1.5em;
+}
+/*-------animation-------*/
+@keyframes scaling {
+    from{
+transform: scale(70%);
+    }
+    to{
+transform: scale(100%);
+    }
+}
+/* ---------------------- */
+
+.facts{
+    font-weight: 700;
+    font-size: 45px;
+}
+.paragraph-editline{
+    color:#727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 110px;
+}
+/* final section */
+.last{
+    text-align: center;
+    align-items: center;
+}
+.sponspors{
+    font-weight:700;
+    font-size:45px;
+}
+.images img{
+    filter: grayscale(100%);
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 140px;
+}
+.footer-container{
+    text-align: center;
+    background: #FFF4E7;
+    border-radius: 8px;
+    height: 100px;
+    padding-top: 50px;
+}
+/* ----------------
+personal project 
+------------------*/
+
+.footer-contain{
+    background-color: #212329;
+    padding: 60px;
+}
+.footer{
+    width: 80%;
+    height: 300px;
+    background-color: #212329;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    margin: 0 auto;
+}
+
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+}
+
+.footer-heading h2 {
+    margin-bottom: 2rem;
+}
+
+.footer-heading a {
+    color: rgb(238, 236, 236);
+    text-decoration:none;
+    margin-bottom: 5px;
+}
+
+.footer-heading a:hover{
+    color: aquamarine;
+    transition:0.3s ease-out;
+}
+.footer-email-form h2 {
+    margin-bottom: 1px;
+}
+
+
+
+#footer-email {
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    padding-left: 1px;
+    font-size: 16px;
+    margin-bottom: 0.5px;
+    margin-top: 40px;
+
+}
+
+
+#footer-emaill::placeholder{
+    color: #412b2b
+}
+#footer-email-btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #f9423d;
+
+}
+
+#footer-email-btn:hover {
+    cursor: pointer;
+    background-color: #337af1;
+    transition:all 0.5s ease-out;
+}
+
+/* -----------------------------
+      Media screen related 
+------------------------------ */
+
+
+@media screen and (max-width:576px) {
+    .div-child{
+        padding-top: 0%;
+    }
+    .menu-bar li {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .starting{
+        display: grid;
+    }
+    
+    .images-banner img{
+        width: 100%;
+    }
+    .main-container{
+        flex-direction: column;
+    }
+    .photos {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(4 ,1fr);
+    }
+    .megapic img {
+        width: 100%;
+    }
+    .Experience{
+        flex-direction: column;
+    }
+    body{
+        margin-top: 0%;
+        margin-left: 0%;
+        margin-bottom: 0%;
+        margin-right: 0%;
+        width: 100%;
+    }
+    section .icons {
+        flex-direction: column;
+        align-items: center;
+    }
+    .last-section {
+        display: grid;
+        grid-template-rows: repeat(1,1fr);
+    }
+    .images {
+        display: grid;
+        grid-template-rows: repeat(1 ,1fr);
+    }
+    .sponsor {
+        margin-bottom: 30%;
+    }
+     div.footer-container {
+        width: 100%;
+    }
+
+    .footer{
+        height: 0%;
+    }
+    .footer-3 {
+        display: none;
+        
+    }
+    .footer-email-form {
+        margin-top: 2rem;
+    }
+}
+/* --------------------
+    Animation site 
+----------------------*/
